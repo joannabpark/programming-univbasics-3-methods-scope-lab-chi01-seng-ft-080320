@@ -1,20 +1,14 @@
 def mario
   $phrase = "It's-a me, Mario!"
-  puts phrase
+  puts {$phrase}
 end
 
 def toadstool
   $status = 'Thank You Mario! But Our Princess Is In Another Castle!'
-  puts status
+  puts {$status}
 end
 
 def link
-  quote = "It's Dangerous To Go Alone! Take This."
-  puts quote
-end
-
-def all_phrases
-  puts phrase
-  puts status 
-  puts quote
+  $quote = "It's Dangerous To Go Alone! Take This."
+  puts {$quote}
 end
